@@ -1,31 +1,23 @@
-## Project Name
+## Password Locker
 
-Password Locker
-
-## Author
-
-Simpenzwe Anais
+## By Simpenzwe Anais
 
 ## Description
 
-Password Locker is a terminal run python application that allows users to store details example: usernames and passwords of their various accounts
+This is a terminal based python program that helps users to manage their passwords and even generate new passwords for them
 
-## User Stories
+#### To start using this project use the following commands:
 
-* As a user, I want to create a password locker account with my details, a login username and password.
+git clone https://github.com/Anaissimpz/Password-Locker.git
+cd Password-Locker
+To run this program
 
-* As a user, I want to store my already existing account credentials in the application. Assuming I already have a twitter account, I want to store my already existing twitter username and password in the application.
+run this command lines in your terminal:
+chmod +x run.py
+./run.py
+## Behaviour Driven Development
 
-* As a user, I want to create new account credentials in the application. For example, if I have not yet signed up for Instagram, I would want to create a credentials account for Instagram in the application and the application generates a password for me to use when I sign up for Instagram.
-
-* As a user, I want to have the option of putting in a password that I want to use for the new credential account. For example, when creating my Instagram credential account, I want to have an option of putting in the password I want to use instead of having the application generate a password for me.
-
-* As a user, I also want to view my various account credentials and their passwords in the application.
-* As a user, I want to delete a credentials account that I no longer need in the application.
-
-## Specifications
-
-* The program should ask for user's username and password when ca(create account) is entered:
+* The program should ask for user's username and password when cc(create account) is entered:
 
 Input Example: Enter ca
 
@@ -67,24 +59,19 @@ Output Example: Here is a list of all of your credentials...
 
 Input Example: Enter ex
 
-Output Example: Thank you for using Password locker...
-
-
-
-## SetUp / Installation Requirements
-
-* python3.6
-* chmod +x run.py
-* ./run.py
-* run this command lines in your terminal: https://github.com/umutesiwaseyvette/Password-Locker
+Output Example: Byee...
+## Technologies Used
+* Python
+* OOP
+* Terminal
 
 ## Contact
 
-* Tel:+250788582184
-* Email: rwjpyy@gmail.com
+* Tel:+250783711066
+* Email: anaissimpenzwe@gmail.com
 
 ## License
 
 MIT License
 
-Copyright (c) 2019 UMUTESIWASE Yvette
+Copyright (c) 2019 Anais Simpenzwe
