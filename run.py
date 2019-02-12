@@ -50,7 +50,7 @@ def main():
         print(f"Hello {user_name}. what would you like to do?")
         print('\n')
         while True:
-                print("Use these short codes : cc - create a new Account, dc - display Credentials, fc -find a credential, ex -exit the App-Locker")
+                print("Use these short codes : ca - create a new Account, dc - display Credentials, fc -find a credential, ex -exit the App-Locker")
                 short_code = input().lower()
                 if short_code == 'cc':
                         print("New Account")
@@ -90,7 +90,7 @@ def main():
                                 print("Those Credentials do not exist")
 
                 elif short_code == "ex":
-                        print("Bye .......")
+                        print("Thank you for using Password-Locker")
                         break
                 else:
                         print("I really didn't get that. Please use the short codes")
