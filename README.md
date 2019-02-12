@@ -8,13 +8,13 @@ This is a terminal based python program that helps users to manage their passwor
 
 #### To start using this project use the following commands:
 
-git clone https://github.com/Anaissimpz/Password-Locker.git
-cd Password-Locker
-To run this program
+* git clone https://github.com/Anaissimpz/Password-Locker.git
+* cd Password-Locker
+* To run this program
 
-run this command lines in your terminal:
-chmod +x run.py
-./run.py
+##### run this command lines in your terminal:
+* chmod +x run.py
+* ./run.py
 ## Behaviour Driven Development
 
 * The program should ask for user's username and password when cc(create account) is entered:
