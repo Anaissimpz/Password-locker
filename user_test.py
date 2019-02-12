@@ -39,8 +39,17 @@ class TestUser(unittest.TestCase):
             objects to our user_list
             '''
             self.new_User.save_user()
-            test_user = User("","","","") # new user
+            test_user = User("Anais","simp","Anasimp","213123") # new user
             test_user.save_user()
             self.assertEqual(len(User.user_list),2)
+    def test_user_exists(self):
+            '''
+            test to check if we can return a Boolean  if we cannot find the contact.
+            '''
+            self.new_User.save_user()
+            test_user = User("Anais","simp","Anasimp","213123") # new user
+            test_user.save_user()
+            user_exists = User.user_exist("Anasimp")
+            self.assertTrue(user_exists)
 if __name__ == '__main__':
     unittest.main()
