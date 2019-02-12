@@ -40,3 +40,23 @@ class Credentials:
         for Credentials in cls.Credentials_list:
             if Credentials.website_name == name:
                 return Credentials
+    @classmethod
+    def Credentials_exist(cls,website_name):
+        '''
+        Method that checks if a user exists from the Credential list.
+        Args:
+            website_name:website_name to search if it exists
+        Returns :
+            Boolean: True or false depending if the user exists
+        '''
+        for Credentials in cls.Credentials_list:
+            if Credentials.website_name == website_name:
+                return True
+
+       
+    @classmethod
+    def display_Credentials(cls):
+        '''
+        method that returns the Credentials list
+        '''
+        return cls.Credentials_list
